@@ -2,5 +2,6 @@
 *.elf
 *.map
 baserom.bin
-mariovsdk-carde-18.bin
+mariovsdk-carde-english.bin
 tools/*
+src/code.s

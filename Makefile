@@ -23,7 +23,7 @@ ASFLAGS  := -mcpu=arm7tdmi -mthumb-interwork -I asminclude
 
 #### Files ####
 
-ROM      := mariovsdk-carde-18.bin
+ROM      := mariovsdk-carde-english.bin
 ELF      := $(ROM:.bin=.elf)
 MAP      := $(ROM:.bin=.map)
 LDSCRIPT := ldscript.txt
@@ -34,8 +34,7 @@ OFILES   := $(SFILES:.s=.o) $(CFILES:.c=.o)
 
 #### Main Targets ####
 
-compare: $(ROM)
-	$(QUIET) md5sum -c checksum.md5
+build: $(ROM)
 
 clean:
 	$(RM) $(ROM) $(ELF) $(MAP) $(OFILES) src/*.s
