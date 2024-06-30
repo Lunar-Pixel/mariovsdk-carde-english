@@ -155,13 +155,13 @@ const char *gStringTable[] =
     "Link e-Reader to Mario vs. Donkey Kong\n"
     "and select the e-Reader card Menu\n"
     "then select ADD LEVEL to begin.\n\n"
-    "Press B Button to Cancel\n",
+    "Press B Button to Cancel.\n",
     
     "Is now available.\n\n"
     "Link e-Reader to Mario vs. Donkey Kong\n"
     "and select the e-Reader card Menu\n"
     "then select ADD LEVEL to begin.\n\n"
-    "Press B Button to Cancel\n",
+    "Press B Button to Cancel.\n",
     
     "Is ready to send.\n\n"
     "Press the A Button on the GBA with\n"
